@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="931cea71-767d-4b73-b7c0-a34e6d4d8c17" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Driver.class" afterPath="$PROJECT_DIR$/Driver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Grid.class" afterPath="$PROJECT_DIR$/Grid.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Driver.java" afterPath="$PROJECT_DIR$/Driver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noughtscrosses.iml" afterPath="$PROJECT_DIR$/noughtscrosses.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Grid.java" afterPath="$PROJECT_DIR$/Grid.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +35,8 @@
       <file leaf-file-name="Grid.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Grid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="300">
+              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -399,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="300">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding />
         </state>
       </provider>
