@@ -20,7 +20,7 @@ public class Grid extends JFrame implements ActionListener {
                 buttonArray[i][j] = new JButton();
                 buttonArray[i][j].setText(i + " " + j);
                 panel.add(buttonArray[i][j]);
-                buttonArray[i][j].setIcon(icon.zeroIcon);
+                buttonArray[i][j].setIcon(icon.blankIcon);
                 buttonArray[i][j].addActionListener(this);
             }
         }
@@ -42,6 +42,7 @@ public class Grid extends JFrame implements ActionListener {
                 if(e.getSource() == buttonArray[i][j])
                 {
                     System.out.println("Button at " + i + " " + j + " pressed");
+                    buttonArray[i][j].setIcon(icon.zeroIcon);
                 }
             }
         }
