@@ -4,15 +4,26 @@ import java.awt.event.*;
 
 public class Grid extends JFrame implements ActionListener {
     private JPanel panel;
+    private JPanel textPanel;
+    private JLabel instructionText;
     private GridLayout gLayout;
+    private BorderLayout bLayout;
     private JButton[][] buttonArray = new JButton[3][3];
     private Icon icon;
 
     public Grid() {
         //creating panel and layout
         gLayout = new GridLayout(3, 3);
+        bLayout = new BorderLayout();
+        textPanel = new JPanel();
+        textPanel.setLayout(bLayout);
+        instructionText = new JLabel();
+        textPanel.add("South", instructionText);
+        instructionText.setText("The first move goes to: Noughts");
+
         panel = new JPanel();
         panel.setLayout(gLayout);
+        textPanel.add("Center", panel);
         icon = new Icon();
         //initialising buttons
         for (int i = 0; i < 3; i++) {
@@ -28,7 +39,7 @@ public class Grid extends JFrame implements ActionListener {
 
         //setting JFrame options
         setTitle("Pokemon Tic Tac Toe");
-        setContentPane(panel);
+        setContentPane(textPanel);
         setSize(400, 400);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
